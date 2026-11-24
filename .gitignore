@@ -1,0 +1,22 @@
+# Gradle / Android build outputs
+.gradle/
+build/
+app/build/
+local.properties
+*.apk
+*.aab
+
+# IDE & compiler sessions
+.idea/
+.kotlin/
+*.iml
+
+# Rust build artifacts & compiled native libs
+rust/target/
+app/src/main/jniLibs/
+
+# Python / OS noise
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
